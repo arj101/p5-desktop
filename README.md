@@ -9,9 +9,8 @@ The P5 Desktop is a simple coding environment designed for new programmers to ge
 
 ### Setup
 
-1. Clone this repo: `git clone https://github.com/processing/p5.js-editor`
-2. Enter the repo directory and install the development modules: `npm
-   install`
+1. Clone this repo: `git clone https://github.com/Andy-Python-Programmer/p5-desktop.git`
+2. Enter the repo directory and install the development modules: `npm install`
 3. Start up the app: `npm run start`
 
-Want to contribute follow the setup steps and start to write some code. This project uses electron.js so it is easy for you to start contributing.
+Want to contribute? Follow the setup steps and start to write some code. This project uses electron.js so it is easy for you to start contributing!

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5 Desktop</title>
+    <link rel="stylesheet" href="codemirror/lib/codemirror.css">
+    <link rel="stylesheet" href="css/create_style.css">
+</head>
+<body>
+    <div class="sidenav">
+        <a href=""><span><img src="images\file.png" alt="" height="30px"></span></a>
+        <a href=""><span><img src="images\js.png" alt="" height="30px" class="border-radius"></span></a>
+        <a href=""><span></span></a>
+        <a href=""><span></span></a>
+    </div>
+    <div class="area"><textarea id="editor">function setup(){
+    createCanvas(800, 800);
+}
+
+function draw(){
+    background(0);
+}</textarea></div>
+    <footer>
+        <div class="shifted">
+            <p>Javascript</p>
+        </div>
+    </footer>
+    <script src="codemirror/lib/codemirror.js"></script>
+    <script src="codemirror/mode/javascript/javascript.js"></script>
+    <script src="js/code.js"></script>
+    <script src="js/titleBar.js"></script>
+</body>
+</html>

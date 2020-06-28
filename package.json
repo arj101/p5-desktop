@@ -1,0 +1,17 @@
+{
+  "name": "p5-desktop",
+  "version": "1.0.0",
+  "description": "Desktop editor for p5.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Anhad Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.5"
+  },
+  "dependencies": {
+    "custom-electron-titlebar": "^3.2.2-hotfix62"
+  }
+}
